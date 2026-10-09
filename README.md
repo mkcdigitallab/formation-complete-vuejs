@@ -1,16 +1,20 @@
 # Formation complète Vue.js — du débutant au développeur autonome
 
-> Objectif : apprendre Vue 3 et son écosystème par la compréhension, la pratique, le débogage et des projets progressifs. La formation vise l'autonomie, pas la copie de solutions.
+> Objectif : maîtriser Vue 3 et son écosystème en comprenant les principes, en construisant des projets, en déboguant et en justifiant ses choix. Ce dépôt est un vrai parcours de formation : le cours explique les notions avant de demander de les appliquer.
 
-## Démarrer dans le bon ordre
+## Commencer ici — le cours complet
 
-1. Lis le [plan de formation](PLAN-DE-FORMATION.md).
-2. Suis le [guide de l'apprenant](GUIDE-APPRENANT.md).
-3. Réalise [LAB 00 : préparer l'environnement](labs/00-preparer-environnement.md).
-4. Étudie les modules dans l'ordre et coche [le suivi de progression](SUIVI-DE-PROGRESSION.md).
-5. Utilise la [méthode de résolution de problèmes](METHODE-DE-RESOLUTION.md) dès que tu bloques.
-6. Consulte les [astuces et pièges courants](ASTUCES-ET-PIEGES.md) après avoir essayé de diagnostiquer.
-7. Termine les projets et les évaluations sans suivre une solution pas à pas.
+**Lis d'abord le [Cours complet Vue 3](COURS-COMPLET-VUE3.md).** Il reprend les fondations du web, JavaScript, Vue, les templates, la réactivité, les composants, les formulaires, les API, le routage, Pinia, TypeScript, les tests, la qualité, Nuxt, les PWA et l'intégration Laravel. Les notions sont expliquées avant les exercices, avec leur utilité, leurs limites et les erreurs fréquentes.
+
+Ensuite, suis cet ordre :
+
+1. [Plan détaillé de formation](PLAN-DE-FORMATION.md) — parcours complet et validations.
+2. [Guide de l'apprenant](GUIDE-APPRENANT.md) — méthode pour étudier et pratiquer.
+3. [LAB 00 : préparer l'environnement](labs/00-preparer-environnement.md).
+4. Suis les modules dans l'ordre ci-dessous.
+5. Coche le [suivi de progression](SUIVI-DE-PROGRESSION.md) seulement quand tu peux expliquer et réutiliser la notion.
+6. Applique la [méthode de résolution de problèmes](METHODE-DE-RESOLUTION.md) quand un comportement est inattendu.
+7. Termine les projets et la [grille d'évaluation de maîtrise](evaluations/grille-maitrise.md).
 
 ## Parcours de cours
 
@@ -33,7 +37,7 @@
 
 ## Laboratoires pratiques
 
-- [Tous les laboratoires et règles de rendu](labs/README.md)
+- [Index de tous les laboratoires](labs/README.md)
 - [LAB 00 — environnement et lecture d'un projet](labs/00-preparer-environnement.md)
 - [LAB 09 — routes, Pinia et composables](labs/09-composables-router-pinia.md)
 - [LAB 10 — API, TypeScript et tests](labs/10-api-typescript-tests.md)
@@ -41,47 +45,47 @@
 - [LAB 12 — débogage, accessibilité et performance](labs/12-debugging-accessibilite-performance.md)
 - [LAB 13 — Nuxt, PWA et déploiement](labs/13-nuxt-pwa-deploiement.md)
 
-Les laboratoires 01 à 08 sont détaillés dans l'index des laboratoires. Les numéros avancés sont des exercices de synthèse qui réunissent plusieurs notions.
+Les laboratoires 01 à 08 sont détaillés dans l'index. Les exercices de synthèse avancés réunissent plusieurs notions déjà étudiées.
 
 ## Projets progressifs
 
-- [Cahier des charges complet — restaurant](projets/01-restaurant-cahier-des-charges.md)
+- [Cahier des charges — application de restaurant](projets/01-restaurant-cahier-des-charges.md)
 - [Liste des projets progressifs](projets/README.md)
-- [Projet final contextualisé — Fondé 44](projets/projet-final-fonde-44.md)
+- [Projet final — Fondé 44](projets/projet-final-fonde-44.md)
 - [Grille d'évaluation de maîtrise](evaluations/grille-maitrise.md)
-- [Astuces et pièges courants](ASTUCES-ET-PIEGES.md)
-- [Méthode de résolution de problèmes](METHODE-DE-RESOLUTION.md)
 
 ## Règles de travail
 
-- Tu écris toi-même le code des exercices.
-- Avant de coder, décris le besoin, les données, les actions et le résultat attendu.
-- Prédire → expérimenter → observer → expliquer → modifier → retester.
-- Une fonctionnalité terminée est testée manuellement et, quand c'est pertinent, automatiquement.
+- Tu écris toi-même le code des exercices : le but est d'apprendre à raisonner, pas de recopier.
+- Avant de coder, décris le besoin, les données, les actions, les règles et le résultat attendu.
+- Suis le cycle : prédire → expérimenter → observer → expliquer → modifier → retester.
+- Une fonctionnalité terminée est testée manuellement et, lorsque c'est pertinent, automatiquement.
 - Ne confonds pas « ça marche » avec « je comprends pourquoi ça marche ».
-- Garde les commits petits et explicites ; ne travaille pas directement sur main pour les projets.
+- Garde des commits petits et explicites ; travaille sur une branche pour les changements conséquents.
 - N'ajoute pas une bibliothèque sans pouvoir expliquer le problème qu'elle résout.
-- Si tu demandes de l'aide, demande d'abord un indice. La correction complète vient après une tentative.
+- Si tu bloques, commence par un indice ou une explication ciblée ; après avoir essayé, étudie une correction et explique-la avec tes mots.
 
 ## Démarrage rapide
 
-Prérequis recommandés : Node.js LTS compatible avec les dépendances, npm, Git et VS Code.
+Prérequis : Node.js LTS compatible avec les dépendances, npm, Git et un éditeur comme VS Code.
 
-Créer un projet avec l'outil officiel :
+```bash
+node --version
+npm --version
+npm create vue@latest
+cd nom-du-projet
+npm install
+npm run dev
+```
 
-    npm create vue@latest
-    cd nom-du-projet
-    npm install
-    npm run dev
-
-Choisis les options selon le module étudié. Pour le premier exercice, commence simplement en JavaScript et active les outils avancés lorsque le cours les aborde.
+Pour débuter, choisis JavaScript et reporte les outils avancés jusqu'aux modules correspondants. Utilise `npm run build` pour vérifier la compilation de production.
 
 ## Calendrier intensif
 
-Le calendrier de 30 jours est un objectif intensif, pas une garantie de maîtrise. Travaille chaque jour avec une réalisation concrète et reviens sur les notions que tu ne sais pas expliquer.
+Le calendrier de 30 jours est un objectif intensif, pas une garantie de maîtrise. La progression dépend de la pratique, de la révision et de ta capacité à expliquer les mécanismes sans modèle.
 
 ## Quand la formation est-elle terminée ?
 
-Tu dois pouvoir construire une application de bout en bout, expliquer son architecture, connecter une API, gérer les états d'erreur, tester les parcours essentiels, corriger un bug et présenter tes décisions sans suivre un tutoriel. La [grille de maîtrise](evaluations/grille-maitrise.md) t'aide à vérifier tes acquis.
+Tu dois pouvoir construire une application de bout en bout, expliquer son architecture, connecter une API, gérer les erreurs, tester les parcours essentiels, corriger un bug et défendre tes décisions techniques sans suivre un tutoriel.
 
-**Important :** ce dépôt est une formation documentaire avec des exercices. Les commandes, applications et tests de tes projets doivent être exécutés dans ton environnement local ; les laboratoires ne sont pas des résultats de tests déjà exécutés.
+**Note :** ce dépôt fournit le cours et les exercices. Les commandes et tests des projets pratiques doivent être exécutés dans ton environnement local ; les exercices ne sont pas des résultats de tests déjà exécutés.
