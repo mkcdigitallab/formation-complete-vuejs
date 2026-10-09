@@ -38,6 +38,8 @@
 - [LAB 09 — routes, Pinia et composables](labs/09-composables-router-pinia.md)
 - [LAB 10 — API, TypeScript et tests](labs/10-api-typescript-tests.md)
 - [LAB 11 — intégrer Vue à Laravel](labs/11-laravel-final.md)
+- [LAB 12 — débogage, accessibilité et performance](labs/12-debugging-accessibilite-performance.md)
+- [LAB 13 — Nuxt, PWA et déploiement](labs/13-nuxt-pwa-deploiement.md)
 
 Les laboratoires 01 à 08 sont détaillés dans l'index des laboratoires. Les numéros avancés sont des exercices de synthèse qui réunissent plusieurs notions.
 
@@ -47,6 +49,8 @@ Les laboratoires 01 à 08 sont détaillés dans l'index des laboratoires. Les nu
 - [Liste des projets progressifs](projets/README.md)
 - [Projet final contextualisé — Fondé 44](projets/projet-final-fonde-44.md)
 - [Grille d'évaluation de maîtrise](evaluations/grille-maitrise.md)
+- [Astuces et pièges courants](ASTUCES-ET-PIEGES.md)
+- [Méthode de résolution de problèmes](METHODE-DE-RESOLUTION.md)
 
 ## Règles de travail
 
