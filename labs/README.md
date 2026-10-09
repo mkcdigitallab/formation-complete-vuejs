@@ -97,6 +97,12 @@ Données : plats avec id, nom, prix, quantité.
 ### LAB 11 — Intégration Laravel
 [Consignes détaillées](11-laravel-final.md). Contrat API, configuration, erreurs de validation, sécurité et livraison.
 
+### LAB 12 — Débogage, accessibilité et performance
+[Consignes détaillées](12-debugging-accessibilite-performance.md). Bugs intentionnels, navigation clavier et optimisation fondée sur des observations.
+
+### LAB 13 — Nuxt, PWA et déploiement
+[Consignes détaillées](13-nuxt-pwa-deploiement.md). SSR/SSG, hydratation, stratégie de cache et livraison en production.
+
 ## Tests manuels à répéter
 Pour chaque fonctionnalité, teste au moins un cas normal, un cas limite et un cas d'échec. Exemples : liste vide, identifiant absent, saisie invalide, réseau coupé, double clic et rechargement de page.
 
