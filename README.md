@@ -4,7 +4,7 @@
 
 ## Commencer ici — le cours complet
 
-**Lis d'abord le [Cours complet Vue 3](COURS-COMPLET-VUE3.md).** Il reprend les fondations du web, JavaScript, Vue, les templates, la réactivité, les composants, les formulaires, les API, le routage, Pinia, TypeScript, les tests, la qualité, Nuxt, les PWA et l'intégration Laravel. Les notions sont expliquées avant les exercices, avec leur utilité, leurs limites et les erreurs fréquentes.
+**Lis d'abord le [Cours complet Vue 3](COURS-COMPLET-VUE3.md).** Il reprend les fondations du web, JavaScript, Vue, les templates, la réactivité, les composants, les formulaires, les API, le routage, Pinia, TypeScript, les tests, la qualité, Nuxt, les PWA et l'intégration Laravel. Les notions sont expliquées avant les exercices, avec leur utilité, leurs limites et les erreurs fréquentes. Le module [Écosystème Vue : hooks, watchers, refs, composables, directives, composants dynamiques, API, Router, Pinia et formulaires](14-ecosysteme-vue-notions-avancees.md) détaille également ces notions avec des exemples commentés et des exercices.
 
 Ensuite, suis cet ordre :
 
@@ -33,7 +33,7 @@ Ensuite, suis cet ordre :
 | 11 | [Tests](10-tests/11-tests-vitest-vue-test-utils-playwright.md) |
 | 12 | [Accessibilité, sécurité et performance](11-architecture/12-accessibilite-securite-performance.md) |
 | 13 | [Nuxt, SSR, SSG et PWA](12-nuxt/13-nuxt-ssr-ssg-pwa.md) |
-| 14 | [Laravel et déploiement](13-deploiement/14-integration-laravel-et-deploiement.md) |
+| 14 | [Laravel et déploiement](13-deploiement/14-integration-laravel-et-deploiement.md) |\n| 15 | [Écosystème Vue : hooks, watchers, template refs, async components, composables, directives, composants dynamiques, API, Router, Pinia et useForm](14-ecosysteme-vue-notions-avancees.md) |
 
 ## Laboratoires pratiques
 
